@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+.ca-body {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/mob_alaska.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+.ca-content {
+  background-color: #fe6e69;
+  background: linear-gradient(to bottom left, #fe6e69 0%, #660066 100%);
+  width: 320px;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+  transform: perspective(20cm) rotateX(-3deg) rotateY(-15deg);
+}
+@media only screen and (min-width: 600px) {
+  .ca-body {
+    background-image: url('../images/full_alaska.jpg');
+  }
+  .ca-content {
+    margin: auto;
+    width: 400px;
+  }
+}
+.ca-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ca-header-title {
+  color: #f5d8d7;
+  font-size: 18px;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+.ca-header-btn {
+  border: none;
+  background-color: transparent;
+  color: #f5d8d7;
+  font-size: 16px;
+  padding: 4px 8px;
+}
+.ca-form {
+  background-color: #ffffff;
+  padding: 25px 20px;
+  border-radius: 4px;
+  margin: 15px 0 35px;
+  position: relative;
+  left: 30px;
+  box-shadow: 0px 0px 10px 0px rgb(0,0,0,0.4);
+}
+
+.ca-form-div {
+  margin: 30px 0;
+}
+
+.ca-label {
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  display: block;
+  color: #0080e0;
+}
+.ca-input {
+  width: 100%;
+  border:none;
+  border-bottom: 1px solid #e6e6e6;
+  font-family: 'Sulphur Point', sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 3px 2px;
+  color: #000000;
+}
+.ca-input:focus {
+  outline: none;
+  border-bottom: 1px solid #0080e0;
+}
+
+.ca-footer {
+  padding-bottom: 10px;
+  text-align: right;
+}
+
+.ca-btn-none {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Sulphur Point', sans-serif;
+  padding: 10px;
+  font-size: 15px;
+  width: 120px;
+  cursor: pointer;
+}
+.ca-btn-primary {
+  border: none;
+  background-color: #0080e0;
+  border-radius: 3px;
+  width: 120px;
+  color: #ffffff;
+  padding: 10px;
+  font-family: 'Sulphur Point', sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  background: linear-gradient(to bottom left, #0080e0 0%, #6600cc 99%);
+}
